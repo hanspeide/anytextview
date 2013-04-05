@@ -22,9 +22,8 @@ Copy the contents of the folder _anytextview_ into your project, and make necess
 use
 ```xml
 <com.ctrplusz.anytextview.AnyTextView 
-	anytextview:typeface="Roboto" ..>
-```
-(where typeface is the filename of the font you want to use, excluding its format) 
+	anytextview:typeface="FontFileName.ttf" ..> <!-- The font place in assets/fonts. .otf is also supported -->
+```  
  
 4) Profit!  		
 
