@@ -2,9 +2,9 @@
 Frustration rise the moment you realise that you cannot use a custom font by setting TextView's android:typeface XML-attribute. AnyTextView relieves your pain by letting you do just that.
 
 ## How to use:
-Copy the contents of the folder anytextview into your project, and make necessary adjustments:
+Copy the contents of the folder _anytextview_ into your project, and make necessary adjustments:
 
-1) Copy the fonts you want to use into the assets/fonts folder  
+1) Copy the fonts you want to use into the _assets/fonts_ folder  
 
 2) Add the AnyTextView namespace to the root element in the XML file that is to contain AnyTextView's, e.g
 ```xml
