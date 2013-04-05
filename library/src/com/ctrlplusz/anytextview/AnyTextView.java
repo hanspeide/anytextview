@@ -1,4 +1,4 @@
-package com.ctrlplusz.anytextviewsample;
+package com.ctrlplusz.anytextview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
