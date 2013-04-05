@@ -7,6 +7,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
 
+import java.lang.Exception;
+import java.lang.String;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,7 +41,7 @@ public class AnyTextView extends TextView {
             try {
                 typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName);
             } catch (Exception e){
-                Log.i("AnyTextView", "Typeface with name " + typefaceName + " was not found, or font could not be loaded. " +
+                Log.v("AnyTextView", "Typeface with name " + typefaceName + " was not found, or font could not be loaded. " +
                         "Showing default typeface.");
                 return;
             }
