@@ -37,9 +37,10 @@ public class AnyTextView extends TextView {
         } else {
             Typeface typeface = null;
             try {
-                typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName + ".ttf");
+                typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName);
             } catch (Exception e){
-                Log.d("AnyTextView", "Typeface with name " + typefaceName + ".ttf/.otf was not found. Showing default typeface.");
+                Log.i("AnyTextView", "Typeface with name " + typefaceName + " was not found, or font could not be loaded. " +
+                        "Showing default typeface.");
                 return;
             }
 
