@@ -26,7 +26,7 @@
     <groupId>com.ctrlplusz</groupId>
     <artifactId>anytextview-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>AnyTextView - Parent</name>
     <description>A custom implementation of Android's TextView that let's you use the font of your choice</description>
@@ -39,10 +39,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
         <binary.prefix>ctrlplusz</binary.prefix>
-
-        <!-- Dependencies -->
         <android.version>2.3.3</android.version>
         <android.platform>16</android.platform>
     </properties>
