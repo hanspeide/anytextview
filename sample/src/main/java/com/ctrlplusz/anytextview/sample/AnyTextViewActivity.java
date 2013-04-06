@@ -1,4 +1,4 @@
-package com.ctrlplusz.anytextviewsample;
+package com.ctrlplusz.anytextview.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
