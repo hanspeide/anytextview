@@ -33,7 +33,7 @@ Add the AnyTextView dependency to your pom.xml:
 use
 ```xml
 <com.ctrplusz.anytextview.AnyTextView 
-	anytextview:typeface="FontFileName.ttf" ..> <!-- The font place in assets/fonts. .otf is also supported -->
+	anytextview:typeface="FontFileName.ttf" ..> <!-- The typeface reciding in in assets/fonts. .otf is also supported -->
 ```  
  
 4) Profit! 		
