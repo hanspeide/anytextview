@@ -16,10 +16,6 @@ public class AnyTextView extends TextView {
 
     public static Map<String, Typeface> typefaceCache = new HashMap<String, Typeface>();
 
-    public AnyTextView(Context context) {
-        super(context);
-    }
-
     public AnyTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
         setTypefaceFromAttrs(context, attrs);
@@ -37,7 +33,8 @@ public class AnyTextView extends TextView {
         if (typefaceCache.containsKey(typefaceName)){
             setTypeface(typefaceCache.get(typefaceName));
         } else {
-            Typeface typeface = null;
+            Typeface typeface;
+
             try {
                 typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName);
             } catch (Exception e){
