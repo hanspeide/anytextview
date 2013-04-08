@@ -45,9 +45,9 @@
     </properties>
 
     <scm>
-        <url>https://github.com/hanspeide/anytextview</url>
+        <url>http://github.com/hanspeide/anytextview</url>
         <connection>scm:git:git://github.com/hanspeide/anytextview.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:hanspeide/anytextview.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:hanspeide/anytextview.git</developerConnection>
     </scm>
 
     <issueManagement>
