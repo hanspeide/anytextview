@@ -25,8 +25,8 @@
 
     <groupId>com.ctrlplusz</groupId>
     <artifactId>anytextview-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <version>1.0</version>
 
     <name>AnyTextView - Parent</name>
     <description>A custom implementation of Android's TextView that let's you use the font of your choice</description>
@@ -48,7 +48,6 @@
         <url>https://github.com/hanspeide/anytextview</url>
         <connection>scm:git:git://github.com/hanspeide/anytextview.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:hanspeide/anytextview.git</developerConnection>
-        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
@@ -58,17 +57,23 @@
 
     <licenses>
         <license>
-            <name>Apache 2.0</name>
+            <name>The Apache Software License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
 
-    <contributors>
-        <contributor>
+    <developers>
+        <developer>
             <name>Hans Petter Eide</name>
             <email>hans.petter.eide@gmail.com</email>
-        </contributor>
-    </contributors>
+            <id>hanspeide</id>
+            <url>http://www.ctrlplusz.com</url>
+            <timezone>+1</timezone>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <dependencyManagement>
         <dependencies>
@@ -154,6 +159,19 @@
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>
