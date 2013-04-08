@@ -25,7 +25,7 @@
 
     <groupId>com.ctrlplusz</groupId>
     <artifactId>anytextview-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <name>AnyTextView - Parent</name>
@@ -48,7 +48,8 @@
         <url>https://github.com/hanspeide/anytextview</url>
         <connection>scm:git:git://github.com/hanspeide/anytextview.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:hanspeide/anytextview.git</developerConnection>
-    </scm>
+      <tag>v1.0</tag>
+  </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
