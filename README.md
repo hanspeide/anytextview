@@ -12,7 +12,7 @@ Add AnyTextView as a dependency in your pom.xml(s):
 </dependency>
 ```
 
-Alternatively, [2][download the .apklib] and reference it from your project. If you're using Eclipse you must
+Alternatively, [1][download the .apklib] and reference it from your project. If you're using Eclipse you must
 unzip the .apklib before adding it. 
 
 ## How to use:
@@ -55,4 +55,4 @@ use
     limitations under the License.
     
     
-[1]:https://code.google.com/p/maven-android-plugin/wiki/ApkLib
+[1]:http://search.maven.org/remotecontent?filepath=com/ctrlplusz/anytextview/1.0/anytextview-1.0.apklib
