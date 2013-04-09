@@ -13,7 +13,7 @@ Add AnyTextView as a dependency in your pom.xml(s):
 ```
 
 Alternatively, [download the .apklib][1] and reference it from your project. If you're using Eclipse you must
-unzip the .apklib before adding it. 
+unzip the .apklib, and reference the extracted project. 
 
 ## How to use:
 1) Copy the fonts you want to use into the _assets/fonts_ folder of your project
