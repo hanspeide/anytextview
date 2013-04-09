@@ -2,17 +2,18 @@
 Frustration arise the moment you realise that you cannot use a custom font by setting TextView's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
 ## Download
-_NOTE! AnyTextView is not yet available in Central, so the artifact has to be installed locally for now. See [this page][1] for details on how to do it._ 
-
-
-Add the AnyTextView dependency to your pom.xml: 
+Add AnyTextView as a dependency in your pom.xml(s):
 ```xml
 <dependency>
   <groupId>com.ctrlplusz</groupId>
   <artifactId>anytextview</artifactId>
-  <version>(insert latest version)</version>
+  <version>1.0</version>
+  <type>apklib</type>
 </dependency>
 ```
+
+Alternatively, [2][download the .apklib] and reference it from your project. If you're using Eclipse you must
+unzip the .apklib before adding it. 
 
 ## How to use:
 1) Copy the fonts you want to use into the _assets/fonts_ folder of your project
