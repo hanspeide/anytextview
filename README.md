@@ -12,7 +12,7 @@ Add AnyTextView as a dependency in your pom.xml(s):
 </dependency>
 ```
 
-Alternatively, [1][download the .apklib] and reference it from your project. If you're using Eclipse you must
+Alternatively, [download the .apklib][1] and reference it from your project. If you're using Eclipse you must
 unzip the .apklib before adding it. 
 
 ## How to use:
