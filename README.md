@@ -1,4 +1,6 @@
 # AnyTextView
+[![endorse](https://api.coderwall.com/hanspeide/endorsecount.png)](https://coderwall.com/hanspeide)  
+
 Frustration arise the moment you realise that you cannot use a custom font by setting TextView's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
 ## Download
