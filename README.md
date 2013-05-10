@@ -1,9 +1,9 @@
-# AnyTextView
+## AnyTextView
 [![endorse](https://api.coderwall.com/hanspeide/endorsecount.png)](https://coderwall.com/hanspeide)  
 
 Frustration arise the moment you realise that you cannot use a custom font by setting TextView's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
-## Download
+### Download
 Add AnyTextView as a dependency in your pom.xml(s):
 ```xml
 <dependency>
@@ -17,7 +17,7 @@ Add AnyTextView as a dependency in your pom.xml(s):
 Alternatively, [download the .apklib][1] and reference it from your project. If you're using Eclipse you must
 unzip the .apklib, and reference the extracted project. 
 
-## How to use:
+### How to use:
 1) Copy the fonts you want to use into the _assets/fonts_ folder of your project
 
 2) Add your application namespace to the root element in the XML file that is to contain AnyTextView's, e.g
@@ -31,17 +31,32 @@ unzip the .apklib, and reference the extracted project.
 
 3) Instead of using
 ```xml
-<TextView ..>
+<TextView ../>
+<!-- ... or ... -->
+<EditText ../>
 ```
 use
 ```xml
 <com.ctrplusz.anytextview.AnyTextView 
 	foobar:typeface="FontFileName.ttf" ..> <!-- Where "foobar" is the namespace defined in step 2 -->
+<!-- ... or ... -->
+<com.ctrplusz.anytextview.AnyEditTextView 
+	foobar:typeface="FontFileName.ttf" ..> 
 ```  
  
 4) Profit! 		
 
-## License
+### Changelog
+#### Version 1.1
+* Made it possible to use custom typefaces in EditText's using AnyEditTextView. AnyEditTextView's share cache with AnyTextView's.
+* minSdkVersion set to 4
+* No longer tries to render typefaces if code is running in a visual editor
+
+#### Version 1.0
+* Use custom typefaces in TextView's using AnyTextView
+
+
+### License
 	Copyright 2013 Hans Petter Eide
 
     Licensed under the Apache License, Version 2.0 (the "License");
