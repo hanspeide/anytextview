@@ -40,7 +40,8 @@ public class AnyTextView extends TextView {
             setTypeface(typefaceName);
         }
     }
-
+    
+    @Override
     public void setTypeface(String typefaceName){
         if (AnyTextViewCache.typefaceCache.containsKey(typefaceName)){
             setTypeface(AnyTextViewCache.typefaceCache.get(typefaceName));
