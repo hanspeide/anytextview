@@ -9,7 +9,7 @@ Add AnyTextView as a dependency in your pom.xml(s):
 <dependency>
   <groupId>com.ctrlplusz</groupId>
   <artifactId>anytextview</artifactId>
-  <version>1.0</version>
+  <version>[insert latest version her]</version>
   <type>apklib</type>
 </dependency>
 ```
@@ -72,4 +72,4 @@ use
     limitations under the License.
     
     
-[1]:http://search.maven.org/remotecontent?filepath=com/ctrlplusz/anytextview/1.0/anytextview-1.0.apklib
+[1]:http://search.maven.org/remotecontent?filepath=com/ctrlplusz/anytextview/1.1/anytextview-1.1.apklib
