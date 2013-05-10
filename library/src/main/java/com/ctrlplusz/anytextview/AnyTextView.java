@@ -41,7 +41,6 @@ public class AnyTextView extends TextView {
         }
     }
     
-    @Override
     public void setTypeface(String typefaceName){
         if (AnyTextViewCache.typefaceCache.containsKey(typefaceName)){
             setTypeface(AnyTextViewCache.typefaceCache.get(typefaceName));
