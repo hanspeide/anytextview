@@ -2,6 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.ctrlplusz.anytextview"
           android:versionCode="1"
-          android:versionName="0.0.1">
-    <uses-sdk android:minSdkVersion="8"/>
+          android:versionName="1.1">
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="17"/>
 </manifest>

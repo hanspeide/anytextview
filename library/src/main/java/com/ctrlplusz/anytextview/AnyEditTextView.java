@@ -5,18 +5,15 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.TextView;
+import android.widget.EditText;
 
-import java.lang.Exception;
-import java.lang.String;
+public class AnyEditTextView extends EditText {
 
-public class AnyTextView extends TextView {
-
-    public AnyTextView(Context context){
+    public AnyEditTextView(Context context){
         super(context);
     }
 
-    public AnyTextView(Context context, AttributeSet attrs) {
+    public AnyEditTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         if (!isInEditMode()){
@@ -24,7 +21,7 @@ public class AnyTextView extends TextView {
         }
     }
 
-    public AnyTextView(Context context, AttributeSet attrs, int defStyle) {
+    public AnyEditTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
         if (!isInEditMode()){
@@ -36,9 +33,7 @@ public class AnyTextView extends TextView {
         TypedArray values = context.obtainStyledAttributes(attrs, R.styleable.AnyTextView);
         String typefaceName = values.getString(R.styleable.AnyTextView_typeface);
 
-        if (!isInEditMode()){
-            setTypeface(typefaceName);
-        }
+        setTypeface(typefaceName);
     }
 
     public void setTypeface(String typefaceName){
@@ -51,7 +46,7 @@ public class AnyTextView extends TextView {
                 typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName);
             } catch (Exception e){
                 Log.v("AnyTextView", "Typeface " + typefaceName + " not found, or could not be loaded. " +
-                        "Showing default typeface in AnyTextView.");
+                        "Showing default typeface in AnyEditTextView.");
                 return;
             }
 

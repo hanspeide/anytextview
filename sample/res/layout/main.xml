@@ -9,215 +9,131 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
+
+        <!-- Don't ask why this is need -->
+        <LinearLayout
+                android:focusable="true" android:focusableInTouchMode="true"
+                android:layout_width="0px" android:layout_height="0px"/>
+
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BlackItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BlackItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Bold"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Bold.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldCondensed"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BoldCondensed.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BoldItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Condensed"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Condensed.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-CondensedItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-CondensedItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Italic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Italic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Light"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Light.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-LightItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-LightItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Medium"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Medium.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-MediumItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-MediumItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Regular"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Regular.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Thin"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Thin.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-ThinItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-ThinItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Hello World, I'm SomeNoneExistantFont, so the default font should be shown instead"
-                android:textSize="22sp"
-                android:ellipsize="end"
+                style="@style/AnyTextView"
+                android:text="Hello World, I'm SomeNoneExistantFont, so the default font will be shown instead"
                 anytextview:typeface="SomeNonExistantFont.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BlackItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BlackItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Bold"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Bold.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldCondensed"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BoldCondensed.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-BoldItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Condensed"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Condensed.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-CondensedItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-CondensedItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Italic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Italic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Light"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Light.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-LightItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-LightItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Medium"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Medium.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-MediumItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-MediumItalic.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Regular"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Regular.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Thin"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-Thin.ttf" />
         <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-ThinItalic"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="Roboto-ThinItalic.ttf" />
-        <com.ctrlplusz.anytextview.AnyTextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+        <com.ctrlplusz.anytextview.AnyEditTextView
+                style="@style/AnyTextView"
                 android:text="Hello World, I'm SomeNoneExistantFont, so the default font should be shown instead"
-                android:textSize="22sp"
-                android:ellipsize="end"
                 anytextview:typeface="SomeNonExistantFont.ttf" />
     </LinearLayout>
 </ScrollView>
