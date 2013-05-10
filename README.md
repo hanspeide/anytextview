@@ -32,14 +32,18 @@ unzip the .apklib, and reference the extracted project.
 3) Instead of using
 ```xml
 <TextView ../>
+
 <!-- ... or ... -->
+
 <EditText ../>
 ```
 use
 ```xml
 <com.ctrplusz.anytextview.AnyTextView 
 	foobar:typeface="FontFileName.ttf" ..> <!-- Where "foobar" is the namespace defined in step 2 -->
+
 <!-- ... or ... -->
+
 <com.ctrplusz.anytextview.AnyEditTextView 
 	foobar:typeface="FontFileName.ttf" ..> 
 ```  
