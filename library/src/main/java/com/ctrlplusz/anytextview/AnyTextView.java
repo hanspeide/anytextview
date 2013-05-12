@@ -2,15 +2,14 @@ package com.ctrlplusz.anytextview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.TextView;
 
-import java.lang.Exception;
 import java.lang.String;
 
 public class AnyTextView extends TextView {
+
+    private final Util util = new Util();
 
     public AnyTextView(Context context){
         super(context);
@@ -37,26 +36,24 @@ public class AnyTextView extends TextView {
         String typefaceName = values.getString(R.styleable.AnyTextView_typeface);
 
         if (!isInEditMode()){
-            setTypeface(typefaceName);
+            util.setTypeface(this, typefaceName);
         }
     }
-    
-    public void setTypeface(String typefaceName){
-        if (AnyTextViewCache.typefaceCache.containsKey(typefaceName)){
-            setTypeface(AnyTextViewCache.typefaceCache.get(typefaceName));
-        } else {
-            Typeface typeface;
 
-            try {
-                typeface = Typeface.createFromAsset(this.getContext().getAssets(), "fonts/" + typefaceName);
-            } catch (Exception e){
-                Log.v("AnyTextView", "Typeface " + typefaceName + " not found, or could not be loaded. " +
-                        "Showing default typeface in AnyTextView.");
-                return;
-            }
+    /*
+     *  <attr name="typeface" format="reference" />
 
-            AnyTextViewCache.typefaceCache.put(typefaceName, typeface);
-            setTypeface(typeface);
-        }
-    }
+static somewhere (gets the internal android R stylable id)
+private static final int resourceId = Resources.getSystem().getIdentifier("typeface", "attr", "android");
+
+you can probably override setTypeface to check your typeface setter before calling the parent function:
+void setTypeface(AttributeSet attrs) {
+for (int i = 0; i < attrs.getAttributeCount(); i++) {
+           if (resourceId == attrs.getAttributeNameResource(i)) {
+           	// this is the internal android:typeface attribute
+               break;
+           }
+       }
+}﻿
+     */
 }

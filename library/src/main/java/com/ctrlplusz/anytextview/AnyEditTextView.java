@@ -37,8 +37,8 @@ public class AnyEditTextView extends EditText {
     }
 
     public void setTypeface(String typefaceName){
-        if (AnyTextViewCache.typefaceCache.containsKey(typefaceName)){
-            setTypeface(AnyTextViewCache.typefaceCache.get(typefaceName));
+        if (Util.typefaceCache.containsKey(typefaceName)){
+            setTypeface(Util.typefaceCache.get(typefaceName));
         } else {
             Typeface typeface;
 
@@ -50,7 +50,7 @@ public class AnyEditTextView extends EditText {
                 return;
             }
 
-            AnyTextViewCache.typefaceCache.put(typefaceName, typeface);
+            Util.typefaceCache.put(typefaceName, typeface);
             setTypeface(typeface);
         }
     }
