@@ -6,9 +6,9 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
     <LinearLayout
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent">
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
         <!-- Don't ask why this is need -->
         <LinearLayout
@@ -18,122 +18,122 @@
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BlackItalic"
-                anytextview:typeface="Roboto-BlackItalic.ttf" />
+                anytextview:typeface="Roboto-BlackItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Bold"
-                anytextview:typeface="Roboto-Bold.ttf" />
+                anytextview:typeface="Roboto-Bold.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldCondensed"
-                anytextview:typeface="Roboto-BoldCondensed.ttf" />
+                anytextview:typeface="Roboto-BoldCondensed.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldItalic"
-                anytextview:typeface="Roboto-BoldItalic.ttf" />
+                anytextview:typeface="Roboto-BoldItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Condensed"
-                anytextview:typeface="Roboto-Condensed.ttf" />
+                anytextview:typeface="Roboto-Condensed.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-CondensedItalic"
-                anytextview:typeface="Roboto-CondensedItalic.ttf" />
+                anytextview:typeface="Roboto-CondensedItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Italic"
-                anytextview:typeface="Roboto-Italic.ttf" />
+                anytextview:typeface="Roboto-Italic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Light"
-                anytextview:typeface="Roboto-Light.ttf" />
+                anytextview:typeface="Roboto-Light.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-LightItalic"
-                anytextview:typeface="Roboto-LightItalic.ttf" />
+                anytextview:typeface="Roboto-LightItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Medium"
-                anytextview:typeface="Roboto-Medium.ttf" />
+                anytextview:typeface="Roboto-Medium.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-MediumItalic"
-                anytextview:typeface="Roboto-MediumItalic.ttf" />
+                anytextview:typeface="Roboto-MediumItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Regular"
-                anytextview:typeface="Roboto-Regular.ttf" />
+                anytextview:typeface="Roboto-Regular.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Thin"
-                anytextview:typeface="Roboto-Thin.ttf" />
+                anytextview:typeface="Roboto-Thin.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-ThinItalic"
-                anytextview:typeface="Roboto-ThinItalic.ttf" />
+                anytextview:typeface="Roboto-ThinItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm SomeNoneExistantFont, so the default font will be shown instead"
-                anytextview:typeface="SomeNonExistantFont.ttf" />
+                anytextview:typeface="SomeNonExistantFont.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BlackItalic"
-                anytextview:typeface="Roboto-BlackItalic.ttf" />
+                anytextview:typeface="Roboto-BlackItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Bold"
-                anytextview:typeface="Roboto-Bold.ttf" />
+                anytextview:typeface="Roboto-Bold.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldCondensed"
-                anytextview:typeface="Roboto-BoldCondensed.ttf" />
+                anytextview:typeface="Roboto-BoldCondensed.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-BoldItalic"
-                anytextview:typeface="Roboto-BoldItalic.ttf" />
+                anytextview:typeface="Roboto-BoldItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Condensed"
-                anytextview:typeface="Roboto-Condensed.ttf" />
+                anytextview:typeface="Roboto-Condensed.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-CondensedItalic"
-                anytextview:typeface="Roboto-CondensedItalic.ttf" />
+                anytextview:typeface="Roboto-CondensedItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Italic"
-                anytextview:typeface="Roboto-Italic.ttf" />
+                anytextview:typeface="Roboto-Italic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Light"
-                anytextview:typeface="Roboto-Light.ttf" />
+                anytextview:typeface="Roboto-Light.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-LightItalic"
-                anytextview:typeface="Roboto-LightItalic.ttf" />
+                anytextview:typeface="Roboto-LightItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Medium"
-                anytextview:typeface="Roboto-Medium.ttf" />
+                anytextview:typeface="Roboto-Medium.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-MediumItalic"
-                anytextview:typeface="Roboto-MediumItalic.ttf" />
+                anytextview:typeface="Roboto-MediumItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Regular"
-                anytextview:typeface="Roboto-Regular.ttf" />
+                anytextview:typeface="Roboto-Regular.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-Thin"
-                anytextview:typeface="Roboto-Thin.ttf" />
+                anytextview:typeface="Roboto-Thin.ttf"/>
         <com.ctrlplusz.anytextview.AnyTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm Roboto-ThinItalic"
-                anytextview:typeface="Roboto-ThinItalic.ttf" />
+                anytextview:typeface="Roboto-ThinItalic.ttf"/>
         <com.ctrlplusz.anytextview.AnyEditTextView
                 style="@style/AnyTextView"
                 android:text="Hello World, I'm SomeNoneExistantFont, so the default font should be shown instead"
-                anytextview:typeface="SomeNonExistantFont.ttf" />
+                anytextview:typeface="SomeNonExistantFont.ttf"/>
     </LinearLayout>
 </ScrollView>
