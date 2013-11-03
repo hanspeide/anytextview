@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="typeface_not_found">Typeface %$1 not found, or could not be loaded.
+    <string name="app">AnyTextView</string>
+    <string name="typeface_not_found">Typeface %s not found, or could not be loaded.
         Showing default typeface.
     </string>
-    <string name="app">AnyTextView</string>
     <string name="assets_fonts_folder">fonts/</string>
 </resources>

@@ -33,5 +33,7 @@ public class Util {
             typefaceCache.put(typefaceName, typeface);
             textView.setTypeface(typeface);
         }
+
+        values.recycle();
     }
 }
