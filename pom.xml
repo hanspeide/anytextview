@@ -25,11 +25,11 @@
 
     <groupId>com.ctrlplusz</groupId>
     <artifactId>anytextview-parent</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>AnyTextView - Parent</name>
-    <description>A custom implementation of Android's TextView that let's you use the font of your choice</description>
+    <description>A customized implementation of Android's TextView and EditText that lets you use the font of your choice</description>
     <url>https://github.com/hanspeide/anytextview</url>
 
     <modules>
@@ -93,7 +93,7 @@
                 <plugin>
                     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                     <artifactId>android-maven-plugin</artifactId>
-                    <version>3.3.2</version>
+                    <version>3.7.0</version>
                     <configuration>
                         <sdk>
                             <platform>${android.platform}</platform>
