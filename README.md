@@ -1,7 +1,7 @@
 ## AnyTextView
 [![endorse](https://api.coderwall.com/hanspeide/endorsecount.png)](https://coderwall.com/hanspeide)  
 
-Frustration arise the moment you realise that you cannot use a custom font by setting TextView's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
+Frustration arise the moment you realise that you cannot use a custom font by setting TextView's and EditText's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
 ### Download
 Add AnyTextView as a dependency in your pom.xml(s):
@@ -51,8 +51,12 @@ use
 4) Profit! 		
 
 ### Changelog
+#### Version 1.1.1
+* Added missing .recycle() call on TypedArray
+* Bumped targetSdkVersion to 19 (KitKat) 
+
 #### Version 1.1
-* Made it possible to use custom typefaces in EditText's using AnyEditTextView. AnyEditTextView's share cache with AnyTextView's.
+* Made it possible to use custom typefaces in EditText's using AnyEditTextView. AnyEditTextView's shares cache with AnyTextView's.
 * minSdkVersion set to 4
 * No longer tries to render typefaces if code is running in a visual editor
 
