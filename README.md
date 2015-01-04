@@ -4,13 +4,20 @@
 Frustration arise the moment you realise that you cannot use a custom font by setting TextView's and EditText's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
 ### Download
-Add AnyTextView as a dependency in your pom.xml(s):
+Add AnyTextView as a dependency:
+
+If you're using Gradle (recommended), add the following to your build.gradle file:
+dependencies {
+    compile 'com.ctrlplusz.anytextview:library:[insert latest version here]'
+}
+
+If you're using Maven, add the following to your pom.xml file:
 ```xml
 <dependency>
-  <groupId>com.ctrlplusz</groupId>
-  <artifactId>anytextview</artifactId>
+  <groupId>com.ctrlplusz.anytextview</groupId>
+  <artifactId>library</artifactId>
   <version>[insert latest version here]</version>
-  <type>apklib</type>
+  <type>aar</type>
 </dependency>
 ```
 
@@ -51,6 +58,12 @@ use
 4) Profit! 		
 
 ### Changelog
+#### Version 1.2
+* Project is now using Gradle instead of Maven for building
+* Packaging changed to be .aar instead of .apklib
+* Prepared project for release in Central
+* Bumped version numbers to 21 (Lollipop)
+
 #### Version 1.1.1
 * Added missing .recycle() call on TypedArray
 * Bumped targetSdkVersion to 19 (KitKat) 
