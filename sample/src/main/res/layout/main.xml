@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:anytextview="http://schemas.android.com/apk/res/com.ctrlplusz.anytextview.sample"
+        xmlns:anytextview="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="wrap_content">
 
-        <!-- Don't ask why this is need -->
+        <!-- Don't ask why this is needed -->
         <LinearLayout
                 android:focusable="true" android:focusableInTouchMode="true"
                 android:layout_width="0px" android:layout_height="0px"/>

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Util {
     public static Map<String, Typeface> typefaceCache = new HashMap<String, Typeface>();
 
@@ -26,7 +27,7 @@ public class Util {
             try {
                 typeface = Typeface.createFromAsset(textView.getContext().getAssets(), context.getString(R.string.assets_fonts_folder) + typefaceName);
             } catch (Exception e) {
-                Log.v(context.getString(R.string.app), String.format(context.getString(R.string.typeface_not_found), typefaceName));
+                Log.w(context.getString(R.string.app), String.format(context.getString(R.string.typeface_not_found), typefaceName));
                 return;
             }
 
