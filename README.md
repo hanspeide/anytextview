@@ -6,7 +6,7 @@ Frustration arise the moment you realise that you cannot set a custom font on Te
 If you're using Gradle (recommended), add the following to your build.gradle file:
 ```javascript
 dependencies {
-    compile 'com.ctrlplusz.anytextview:library:[insert latest version here]'
+    compile 'com.ctrlplusz.anytextview:library:1.2'
 }
 ```
 
@@ -15,7 +15,7 @@ If you're using Maven, add the following to your pom.xml file:
 <dependency>
   <groupId>com.ctrlplusz.anytextview</groupId>
   <artifactId>library</artifactId>
-  <version>[insert latest version here]</version>
+  <version>1.2</version>
   <type>aar</type>
 </dependency>
 ```
