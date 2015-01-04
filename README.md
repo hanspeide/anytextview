@@ -58,6 +58,11 @@ use
 
 <com.ctrlplusz.anytextview.AnyEditTextView 
 	foobar:typeface="FontFileName.ttf" ..> 
+	
+<!-- ... or ... -->
+
+<com.ctrlplusz.anytextview.AnyButton 
+	foobar:typeface="FontFileName.ttf" ..> 
 ```  
 
  
