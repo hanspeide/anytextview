@@ -1,7 +1,6 @@
 ## AnyTextView
-[![endorse](https://api.coderwall.com/hanspeide/endorsecount.png)](https://coderwall.com/hanspeide)  
 
-Frustration arise the moment you realise that you cannot use a custom font by setting TextView's and EditText's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
+Frustration arise the moment you realise that you cannot set a custom font on TextView, EditText and Button views using the ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
 ### Setup
 If you're using Gradle (recommended), add the following to your build.gradle file:
