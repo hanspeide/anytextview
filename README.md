@@ -3,13 +3,13 @@
 
 Frustration arise the moment you realise that you cannot use a custom font by setting TextView's and EditText's ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
-### Download
-Add AnyTextView as a dependency:
-
+### Setup
 If you're using Gradle (recommended), add the following to your build.gradle file:
+```javascript
 dependencies {
     compile 'com.ctrlplusz.anytextview:library:[insert latest version here]'
 }
+```
 
 If you're using Maven, add the following to your pom.xml file:
 ```xml
@@ -21,8 +21,7 @@ If you're using Maven, add the following to your pom.xml file:
 </dependency>
 ```
 
-Alternatively, [download the .apklib][1] and reference it from your project. If you're using Eclipse you must
-unzip the .apklib, and reference the extracted project. 
+Alternatively, [download the .aar][1] and reference it from your project.
 
 ### How to use:
 1) Copy the fonts you want to use into the _assets/fonts_ folder of your project
@@ -93,4 +92,4 @@ use
     limitations under the License.
     
     
-[1]:http://search.maven.org/remotecontent?filepath=com/ctrlplusz/anytextview/1.1/anytextview-1.1.apklib
+[1]:https://oss.sonatype.org/service/local/repositories/releases/content/com/ctrlplusz/anytextview/library/1.2/library-1.2.aar
