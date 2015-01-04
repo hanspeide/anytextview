@@ -31,7 +31,7 @@ Alternatively, [download the .aar][1] and reference it from your project.
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:foobar="http://schemas.android.com/apk/res/com.foo.bar"
+        xmlns:foobar="http://schemas.android.com/apk/res-auto"
 		.. >
 ```  
 
@@ -43,7 +43,13 @@ Alternatively, [download the .aar][1] and reference it from your project.
 
 <EditText ../>
 ```
+
+<!-- ... or ... -->
+
+<Button ../>
+
 use
+
 ```xml
 <com.ctrlplusz.anytextview.AnyTextView 
 	foobar:typeface="FontFileName.ttf" ..> <!-- Where "foobar" is the namespace defined in step 2 -->
@@ -53,6 +59,7 @@ use
 <com.ctrlplusz.anytextview.AnyEditTextView 
 	foobar:typeface="FontFileName.ttf" ..> 
 ```  
+
  
 4) Profit! 		
 
