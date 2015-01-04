@@ -42,11 +42,11 @@ Alternatively, [download the .aar][1] and reference it from your project.
 <!-- ... or ... -->
 
 <EditText ../>
-```
 
 <!-- ... or ... -->
 
 <Button ../>
+```
 
 use
 
