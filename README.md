@@ -65,7 +65,10 @@ use
 ```  
 
  
-4) Profit! 		
+4) Profit! 	
+
+### Is your app using AnyTextView?
+* Feel free to submit a pull request for this file, and add your app to this list.
 
 ### Changelog
 #### Version 1.2
