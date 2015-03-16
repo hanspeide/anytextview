@@ -15,6 +15,8 @@ public class Util {
     public static Map<String, Typeface> typefaceCache = new HashMap<String, Typeface>();
 
     public static void setTypeface(AttributeSet attrs, TextView textView) {
+        if (textView.isInEditMode()) return;
+
         Context context = textView.getContext();
 
         TypedArray values = context.obtainStyledAttributes(attrs, R.styleable.AnyTextView);
