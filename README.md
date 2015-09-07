@@ -1,6 +1,6 @@
 ## AnyTextView
 
-> Please note: AnyTextView is no longer being maintained. I recommend replacing AnyTextView with @chrisjenx's > [https://github.com/chrisjenx/Calligraphy](Calligraphy library) instead.
+> Note: AnyTextView is no longer being maintained. I recommend replacing AnyTextView with the [Calligraphy library](https://github.com/chrisjenx/Calligraphy) instead.
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AnyTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/472)
 
