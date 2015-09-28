@@ -1,4 +1,4 @@
-## AnyTextView
+## AnyTextView (deprecated)
 
 > Note: AnyTextView is no longer being maintained. I recommend replacing AnyTextView with the [Calligraphy library](https://github.com/chrisjenx/Calligraphy) instead.
 
