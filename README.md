@@ -1,9 +1,9 @@
 ## AnyTextView (deprecated)
 
-> Note: AnyTextView is no longer being maintained. I recommend replacing AnyTextView with the [Calligraphy library](https://github.com/chrisjenx/Calligraphy) instead.
-
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AnyTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/472)
 <a href="http://www.methodscount.com/?lib=com.ctrlplusz%3Aanytextview%3A%2B"><img src="https://img.shields.io/badge/Methods and size-43 | 6 KB-e91e63.svg"></img></a>
+
+> Note: AnyTextView is no longer being maintained. I recommend replacing AnyTextView with the [Calligraphy library](https://github.com/chrisjenx/Calligraphy) instead.
 
 Frustration arise the moment you realise that you cannot set a custom font on TextView, EditText and Button views using the ```android:typeface``` XML-attribute. AnyTextView is here to relieve your pain.
 
